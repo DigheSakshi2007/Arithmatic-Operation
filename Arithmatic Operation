@@ -1,0 +1,29 @@
+package Arithmatic1;
+class arthmatics
+{
+	int a;
+	int b;
+	void Insert(int a , int b ) 
+	{
+		int c;
+		int d;
+		int e;
+		int f;
+		c=a+b;
+		d=a-b;
+		e=a*b;
+		f=a/b;
+	System.out.println("Addition is "+ c);
+	System.out.println("Subtraction is " + d);
+	System.out.println("Multiplication is " + e);
+	System.out.println("Division is "+ f);
+	}
+}
+public class Operation1 
+{
+    public static void main(String[] args)
+    {
+    	arthmatics a1 = new arthmatics();
+		a1.Insert(55,5);
+    }
+}
