@@ -1,0 +1,12 @@
+package operation;
+
+public class Substractionof3no {
+	public void Insert(int a , int b, int c ) 
+	{
+		int d=a-b-c;
+		System.out.println(" Of 3 no");
+		System.out.println("Substraction is "+ d);
+	}
+   }
+
+
