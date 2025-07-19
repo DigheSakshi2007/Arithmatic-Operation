@@ -1,0 +1,11 @@
+package operation;
+
+public class Aditionof3no
+{
+	public void Display(int a , int b, int c ) 
+		{
+			int d=a+b+c;
+			System.out.println(" Of 3 no");
+			System.out.println("Addition is "+ d);
+		}
+}
