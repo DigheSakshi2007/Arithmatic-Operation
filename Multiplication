@@ -1,0 +1,9 @@
+package arithmatic1;
+public class Maltiplication1 
+{
+	public void Insert(int a , int b ) 
+	{
+		int c=a*b;
+		System.out.println("Maltiplication is "+ c);
+	}
+			 
