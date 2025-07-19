@@ -1,0 +1,23 @@
+package arithmatic1;
+import operation.Aditionof3no;
+import operation.Substractionof3no;
+public class Operation1
+{
+public static void main(String[] args)
+{
+	 Addtion a1 = new Addtion();     
+	 a1.Display(23,43);
+	 Substraction2 s1 = new Substraction2();     
+  	 s1.Insert(23,20);
+  	 Maltiplication1 m2 = new Maltiplication1();     
+	 m2.Insert(23,4);
+	 Division1 d1 = new Division1();     
+	 d1.Insert(20,4);
+	 Maduls1 m1 = new Maduls1();     
+	 m1.Insert(2,40);
+	 Aditionof3no a2 = new Aditionof3no();
+	 a2.Display(2,3,4);
+	 Substractionof3no s2 = new Substractionof3no();
+	 s2.Insert(12, 2, 3);
+	 }
+}
